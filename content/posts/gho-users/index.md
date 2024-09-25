@@ -53,7 +53,7 @@ We want to note clarifying details regarding the framework of our analysis:
 - We define GHO users as individuals or entities who have borrowed GHO at one point.
 - We do not consider the loan's lifetime unless otherwise specified; this means that users who minted GHO and repaid their loans are still counted as users.
 - Our definition of users includes smart contracts. However, they only account for a small fraction (5.6%) of minters.
-- We do not count holders of the GHO token who never minted it on AAVE as users.
+- We do not count holders of the GHO token who never minted it on Aave as users.
 - We also equate one address to one user, as the human unit is not the most relevant for blockchain analytics. An individual may own multiple addresses, but if each address's behavior is different, there is no practical or analytical advantage in grouping them (assuming we could know who owns them). On the other hand, two different individuals may run the same bots and behave the same way on-chain. It's, therefore, more productive to take addresses as the base unit and potentially group users based on their similarities.
 
 Unless otherwise specified, our analysis is solely for the Ethereum mainnet based on data collected on September 4th, 2024.
@@ -106,7 +106,7 @@ This suggests that the gaps are getting filled either by existing users borrowin
  <canvas id="chart-growth-and-utilization" width="800" height="400"></canvas>
 </div>
 
-For instance, on June 1st, a mere hours after the cap was raised from $65m to $68m, user [0xFCC5](https://etherscan.io/address/0xfcc5acd50ae590889d2a53343d35b5fb80d403c2) took out a <span>$3m</span> loan and single-handedly filled the cap.
+For instance, on June 1st, a mere hours after the cap was raised from 65m to 68m, user [0xFCC5](https://etherscan.io/address/0xfcc5acd50ae590889d2a53343d35b5fb80d403c2) took out a <span>$3m</span> loan and single-handedly filled the cap.
 The same user likewise immediately filled the next cap increase to <span>$75m</span> with a [<span>$7m</span> loan](https://etherscan.io/tx/0xac837669efd297ab76c156542bf784d84b4752be5de97a3968ce0b5795cde62f) on June 3rd, and the following one to <span>$82m</span> with an [extra <span>$5m</span> loan](https://etherscan.io/tx/0x5c4c97482ff7e5c19758fd4cebe6ce3a4156315b820820cdd4c8619ca2e65ef7) on June 5th.
 
 Borrowed amounts increased in general, from an average <span>$65k</span> in July-August 2023 to almost <span>$100k</span> in July-August 2024, with nearly 3 times more users taking on $1m+ loans in the latter period. This, too, indicates that **growth in Q2 and Q3 2024 was driven more by capital than new users.**
@@ -187,7 +187,7 @@ GHO users tend to be more active on-chain than other Aave users, making them mor
 
 Pendle is one of the most commonly used protocols for both categories of GHO users.
 As we cannot track protocol usage before opening a GHO loan (all-cross protocol data was drawn from the state of the user's address as of September 10th via DeBank's API), it is difficult to establish directionality or causality:
-Do GHO users move to Pendle to stake? Or are Pendle users coming to AAVE?
+Do GHO users move to Pendle to stake? Or are Pendle users coming to Aave?
 
 An analysis of GHO users' assets on Pendle reveals that they do not primarily go there to earn yield on their GHO. Instead, the tokens they most frequently stake include USDC, USDe, ETH, and LRTs/LSTs. Similarly, only a small number of GHO borrowers use Curve to provide liquidity for GHO. Instead, they are more inclined to provide liquidity in the 3pool (USDC/USDT/DAI) or for ETH pairs.
 
