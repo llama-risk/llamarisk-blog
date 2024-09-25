@@ -1,7 +1,7 @@
 ---
 title: "GHO Users: Interactions & Patterns"
 draft: false
-date: 2024-09-24T09:25:45.000Z
+date: 2024-09-25T09:25:45.000Z
 ogimage: "https://blog.curvemonitor.com/images/gho-users/sankey.jpg"
 description: "Analysis of GHO Users' On-Chain Behavior"
 categories:
@@ -17,6 +17,9 @@ tags:
   - Analytics
   - Products
 ---
+
+For a comprehensive list of our research publications, please visit our [website](https://www.llamarisk.com/research
+)
 
 _Authors:_ [benny](https://warpcast.com/bennylada) for [LlamaRisk](https://x.com/LlamaRisk)
 
