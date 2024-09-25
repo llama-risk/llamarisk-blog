@@ -10,14 +10,6 @@
         {{ .PublishDate.Format "02/01/2006" }} - {{ printf (i18n "estimatedReadingTime") .ReadingTime }}
       </time>
 
-      {{/* Categories */}} 
-      {{ with (.GetTerms "categories") }} — 
-        {{ range . }}
-          <a class="categories" href="{{ .RelPermalink }}" alt="{{ .LinkTitle }}">
-            {{ .LinkTitle }}
-          </a>
-        {{ end }} 
-      {{ end }}
     </div>
   </header>
 
@@ -27,17 +19,6 @@
 
   {{ partial "single/comments/index" . }}
 
-  <footer>
-    {{ with (.GetTerms "tags") }}
-      <div class="pb-14 taxonomy-list tags-list">
-      {{ range . }}
-        <a href="{{ .RelPermalink }}" alt="{{ .LinkTitle }}">
-          {{ .LinkTitle }}
-        </a>
-      {{ end }}
-      </div>
-    {{ end }}
-  </footer>
 </article>
 
 {{ end }}
