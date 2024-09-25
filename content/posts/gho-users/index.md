@@ -17,8 +17,7 @@ tags:
   - Analytics
   - Products
 ---
-
-
+---
 _Author:_ [benny](https://warpcast.com/bennylada) for [LlamaRisk](https://x.com/LlamaRisk)
 
 _For a comprehensive list of our research publications, please visit our [website](https://www.llamarisk.com/research
