@@ -18,10 +18,9 @@ tags:
   - Products
 ---
 
+_Author:_ [benny](https://warpcast.com/bennylada) for [LlamaRisk](https://x.com/LlamaRisk)
 _For a comprehensive list of our research publications, please visit our [website](https://www.llamarisk.com/research
 )_
-
-_Author:_ [benny](https://warpcast.com/bennylada) for [LlamaRisk](https://x.com/LlamaRisk)
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
