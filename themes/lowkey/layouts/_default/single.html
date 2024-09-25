@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-<article class="flex flex-col gap-1">
-  <header class="flex flex-col gap-1">
+<article>
+  <header>
     <h2 class="title-large">{{ .Title }}</h2>
 
     <div class="meta">
@@ -14,7 +14,7 @@
 
   {{ partial "single/table-of-contents" . }}
 
-  <section class="mt-4">{{ .Content | emojify }}</section>
+  <section>{{ .Content | emojify }}</section>
 
   {{ partial "single/comments/index" . }}
 
