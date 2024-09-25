@@ -18,9 +18,10 @@ tags:
   - Products
 ---
 
-<p style="font-size: 0.8em; font-style: italic;">For a comprehensive list of our research publications, please visit our <a href="https://www.llamarisk.com/research">website</a></p>
+_For a comprehensive list of our research publications, please visit our [website](https://www.llamarisk.com/research
+)_
 
-_Authors:_ [benny](https://warpcast.com/bennylada) for [LlamaRisk](https://x.com/LlamaRisk)
+_Author:_ [benny](https://warpcast.com/bennylada) for [LlamaRisk](https://x.com/LlamaRisk)
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
