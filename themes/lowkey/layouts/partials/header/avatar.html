@@ -1,14 +1,5 @@
-{{ $avatar := resources.GetMatch .Site.Params.avatar }} 
-{{ $tiny := ($avatar.Fill "80x80 q90") }}
-
-<div class="flex-none w-20 h-20 rounded-full overflow-hidden">
+<div class="flex-none w-20 h-20 py-4">
   <a href="{{ .Site.BaseURL }}">
-    <img
-      srcset="{{- with $tiny.RelPermalink -}}{{.}} 80w{{- end -}}"
-      src="{{ $avatar.RelPermalink }}"
-      width="{{ $avatar.Width }}"
-      height="{{ $avatar.Height }}"
-      alt="{{ .Site.Title }}"
-    />
+    <!-- Placeholder for vertical padding -->
   </a>
 </div>

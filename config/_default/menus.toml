@@ -10,24 +10,24 @@
     url = "/categories"
     weight = 2
 
-[[main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 3
+#[[main]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about"
+#    weight = 3
 
 # Social Media Configuration
 
-[[social]]
-
-    identifier = "curvemonitor"
-    name = "CurveMonitor"
-    url = "https://www.curvemonitor.com"
-    weight = 1
+#[[social]]
+#
+#    identifier = "curvemonitor"
+#    name = "CurveMonitor"
+#    url = "https://www.curvemonitor.com"
+#    weight = 1
 
 [[social]]
 
     identifier = "github"
     name = "GitHub"
-    url = "https://github.com/curvefi"
+    url = "https://github.com/benber86"
     weight = 1
