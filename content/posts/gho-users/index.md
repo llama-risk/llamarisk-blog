@@ -5,17 +5,7 @@ date: 2024-09-24T09:25:45.000Z
 ogimage: "https://blog.curvemonitor.com/images/gho-users/sankey.jpg"
 description: "Analysis of GHO Users' On-Chain Behavior"
 categories:
-  - GHO
-  - AAVE
-  - Users
-  - Analytics
-  - Products
 tags:
-  - GHO
-  - AAVE
-  - Users
-  - Analytics
-  - Products
 ---
 
 _Authors:_ [benny](https://warpcast.com/bennylada)
