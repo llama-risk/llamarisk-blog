@@ -1,14 +1,14 @@
 ---
 title: "GHO Users: Interactions & Patterns"
 draft: false
-date: 2024-09-24T09:25:45.000Z
+date: 2024-09-26
 ogimage: "https://blog.curvemonitor.com/images/gho-users/sankey.jpg"
 description: "Analysis of GHO Users' On-Chain Behavior"
 categories:
 tags:
 ---
 
-_Authors:_ [benny](https://warpcast.com/bennylada)
+_Authors:_ [benny](https://warpcast.com/bennylada) for [LlamaRisk](https://x.com/LlamaRisk)
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
